@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import StoreKit
 
 class ViewController: UIViewController {
 
@@ -15,5 +16,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func onFetchProduct(_ sender: Any) {
+        IAPManager.shared.fetchProducts()
+    }
+    
+    @IBAction func onPurchase(_ sender: Any) {
+        IAPManager.shared.purchase(product: IAPManager.shared.products["com.temporary.id"] ?? SKProduct())
+    }
 }
 

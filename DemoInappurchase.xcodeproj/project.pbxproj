@@ -13,6 +13,7 @@
 		184412332560F6F300609BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184412312560F6F300609BF2 /* Main.storyboard */; };
 		184412352560F6F400609BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184412342560F6F400609BF2 /* Assets.xcassets */; };
 		184412382560F6F400609BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184412362560F6F400609BF2 /* LaunchScreen.storyboard */; };
+		184412472561055D00609BF2 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184412462561055D00609BF2 /* IAPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		184412342560F6F400609BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184412372560F6F400609BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184412392560F6F400609BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184412432560FB9400609BF2 /* ConfigurationFile.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConfigurationFile.storekit; sourceTree = "<group>"; };
+		184412462561055D00609BF2 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				184412342560F6F400609BF2 /* Assets.xcassets */,
 				184412362560F6F400609BF2 /* LaunchScreen.storyboard */,
 				184412392560F6F400609BF2 /* Info.plist */,
+				184412432560FB9400609BF2 /* ConfigurationFile.storekit */,
+				184412462561055D00609BF2 /* IAPManager.swift */,
 			);
 			path = DemoInappurchase;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184412472561055D00609BF2 /* IAPManager.swift in Sources */,
 				184412302560F6F300609BF2 /* ViewController.swift in Sources */,
 				1844122C2560F6F300609BF2 /* AppDelegate.swift in Sources */,
 				1844122E2560F6F300609BF2 /* SceneDelegate.swift in Sources */,
